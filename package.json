@@ -2,7 +2,8 @@
   "name": "node",
   "module": "index.ts",
   "scripts": {
-    "build": "npx esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node --tsconfig=tsconfig.json"
+    "build": "npx esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node --tsconfig=tsconfig.json",
+    "start": "node dist/index.js"
   },
   "private": true,
   "devDependencies": {
